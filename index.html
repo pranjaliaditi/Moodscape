@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script type = "module" src ="/main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,12 +13,66 @@
         <ul>
             <li><a href="index.html" class = "active">Home</a></li>
             <li><a href="motivation.html">Motivation</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="dashboard.html">Login</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
     </div>
+    <div class="right">
+        <span class="loginwith">Sign in with<br />social network</span>
+
+        <button class="social-signin google" id='login' >Log in with Google </button>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+        
+        import { getAuth, GoogleAuthProvider, signInWithPopup} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBmnXM2jXry1hRfrGwLSglFpThQGZZNm8E",
+          authDomain: "ebuddy-c15f2.firebaseapp.com",
+          projectId: "ebuddy-c15f2",
+          storageBucket: "ebuddy-c15f2.appspot.com",
+          messagingSenderId: "242543592126",
+          appId: "1:242543592126:web:7be8ee814b989e524614ef",
+          measurementId: "G-JYQE43K8BK"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        
+        const auth = getAuth(app);
+        const provider = new GoogleAuthProvider(app)
+
+        login.addEventListener('click',(e)=>{ 
+            signInWithPopup(auth, provider)
+             .then((result) => {
+                // This gives you a Google Access Token. You can use it to access the Google API.
+                const credential = GoogleAuthProvider.credentialFromResult(result);
+                const token = credential.accessToken;
+                // The signed-in user info.
+                const user = result.user;
+
+                alert(user.displayName);
+             
+                // ...
+                }).catch((error) => {
+                // Handle Errors here.
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // The email of the user's account used.
+                const email = error.customData.email;
+                // The AuthCredential type that was used.
+                const credential = GoogleAuthProvider.credentialFromError(error);
+                // ...
+                alert(errorMessage);
+            });
+        });
+      </script>        
     
-            
-    <script src="index.js"></script>
 </body>
 </html>
