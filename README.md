@@ -2,7 +2,11 @@
 
 <p align="center"><img src="https://socialify.git.ci/pranjaliaditi/Moodscape/image?description=1&amp;descriptionEditable=Your%20Space%20-%20Prioritise%20Your%20Mental%20Health%20with%20Us%20!&amp;font=Raleway&amp;logo=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fcute-polar-bear-mascot-vector-icon-cartoon-character-illustration_461200-22.jpg%3Fw%3D1060&amp;name=1&amp;pattern=Signal&amp;theme=Dark" alt="project-image"></p>
 
-<p id="description">MoodScape is one-stop for all your problems! From soothing music curated specially for you to motivational videos and quotes we have it all! We also have a ChatBot named Moodle your one and only AI Friend! Let's take some time out for ourselves and make OUR mental health our first priority! ❤️❤ Fall in love with yourself all over again</p>
+<h2> MoodScape is one-stop for all your problems! </h2>
+<p id="description"> From soothing music curated specially for you to motivational videos and quotes we have it all! <br>
+  We also have a ChatBot named Moodle your one and only AI Friend! <br>
+  Let's take some time out for ourselves and make OUR mental health our first priority! <br>
+  Fall in love with yourself all over again</p>
 
   
   
