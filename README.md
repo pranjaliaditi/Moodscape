@@ -27,3 +27,11 @@ Technologies used in the project:
 *   JavaScript
 *   Firebase
 *   webpack
+
+
+- 📫 How to reach us? **ebuddy.yourspace@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://www.youtube.com/c/https://www.youtube.com/@ebuddy1798/featured" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@ebuddy1798/featured" height="30" width="40" /></a>
+</p>
