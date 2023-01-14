@@ -4,6 +4,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #112D4E;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   li {
@@ -25,6 +28,7 @@ ul {
   .active {
     background-color: #DBE2EF;
     color: #112D4E;
+    font-weight: bold;
   }
 
   body{
@@ -33,7 +37,70 @@ ul {
     margin-right: 0px;
     margin-bottom: 0px;
     text-align: center;
-    background-color: white;
+    background-color: #DBE2EF;
     font-size: 20px;
 }
+
+.ft{
+    font-size: 100px;
+    font-family: 'Eczar', serif;
+    color:  #48889a;
+    line-height: 170%;
+    padding-top: 50px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.pfp{
+    width: 35%;
+    height: 35%;
+    float:left;
+    padding: 5px 20px 5px;
+    margin: 0;
+}
+
+.ftbody{
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    color:  #112D4E;
+    line-height: 170%;
+    
+    margin-right: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3{
+    color: #112D4E; 
+    font-size: 20px;
+    font-family:'Merriweather', serif;
+    text-align: left;
+    line-height: 50px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
   
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }  
