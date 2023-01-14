@@ -17,7 +17,11 @@
             <li><a href="about.html">About</a></li>
           </ul>
     </div>
-    
+    <div class="right">
+        <span class="loginwith">Sign in with<br />social network</span>
+
+        <button class="social-signin google" id='login' >Log in with Google </button>
+    </div>
     <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
@@ -40,11 +44,11 @@
       
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        
         const auth = getAuth(app);
         const provider = new GoogleAuthProvider(app)
 
-    
+        login.addEventListener('click',(e)=>{ 
             signInWithPopup(auth, provider)
              .then((result) => {
                 // This gives you a Google Access Token. You can use it to access the Google API.
@@ -67,7 +71,7 @@
                 // ...
                 alert(errorMessage);
             });
-          
+        });
       </script>        
     
 </body>
