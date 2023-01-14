@@ -29,7 +29,7 @@ Technologies used in the project:
 *   webpack
 
 
-<h2>📫 How to reach us? **ebuddy.yourspace@gmail.com** </h2>
+<h3>📫 How to reach us? ebuddy.yourspace@gmail.com </h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
