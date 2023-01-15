@@ -31,8 +31,15 @@ Technologies used in the project:
 *   JavaScript
 *   Firebase
 *   webpack
+*   Typeform
+
+<h2>🚀 Demo</h2>
+
+[https://www.loom.com/share/5f659ab600be426899434c552fe52e97](https://www.loom.com/share/5f659ab600be426899434c552fe52e97)
 
 
+
+<img src="https://pranjaliaditi.github.io/Moodscape/index.html" alt="project-screenshot" width="400" height="400/">
 <h3>📫 How to reach us? ebuddy.yourspace@gmail.com </h3>
 
 <h3 align="left">Connect with me:</h3>
