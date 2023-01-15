@@ -39,7 +39,7 @@ Technologies used in the project:
 
 
 
-<img src="https://pranjaliaditi.github.io/Moodscape/index.html" alt="project-screenshot" width="400" height="400/">
+
 <h3>📫 How to reach us? ebuddy.yourspace@gmail.com </h3>
 
 <h3 align="left">Connect with me:</h3>
